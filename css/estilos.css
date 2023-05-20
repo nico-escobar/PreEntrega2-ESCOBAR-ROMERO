@@ -240,6 +240,18 @@ h2{
     padding: 10px;
 }
 
+#contactoButton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: rgb(222 156 89);
+    border-radius: 5px;
+    max-width: 200px;
+}
+
+.rounded-3 {
+    background-image: url(https://ilamdir.org/blobs/ilamdir/328/2019/41/1920px-Serrania_de_Hornocal_up_close_near_Humahuaca.jpg);
+}
 
 .footer{
     margin-top: 30px;
@@ -272,7 +284,18 @@ ul.fot-logo {
     margin-bottom: 0;
 }
 
+.gente {
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: .2fr 1fr;
+    justify-content: center;
+}
 
+.h2-gente{
+    font-size: 30px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
 
 @media screen and (max-width: 768px){
     .pagosypromociones{
