@@ -173,13 +173,6 @@ h2{
     background-position: center;
 }
 
-/* .tipos{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 16px;
-}
- */
 .tipos{
     display: grid;
     grid-template-columns: auto auto;
@@ -195,6 +188,8 @@ h2{
     background-color: white;
 }
 .tipsom img{
+    max-width: 100%;
+    height: 90%;
     width: 100%;
 }
 
@@ -224,8 +219,6 @@ h2{
     max-width: 362px;
 }
 
-
-
 .accesorios {
     display: flex;
     flex-wrap: wrap;
@@ -240,6 +233,11 @@ h2{
     padding: 10px;
 }
 
+.accind {
+    font-size: 20px;
+    
+}
+
 #contactoButton {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -250,7 +248,11 @@ h2{
 }
 
 .rounded-3 {
-    background-image: url(https://ilamdir.org/blobs/ilamdir/328/2019/41/1920px-Serrania_de_Hornocal_up_close_near_Humahuaca.jpg);
+    background-image: url(../img/hornocal.jpg);
+}
+
+.text-uppercase {
+    text-align: center;
 }
 
 .footer{
@@ -295,6 +297,14 @@ ul.fot-logo {
     font-size: 30px;
     grid-column: 1/2;
     grid-row: 1/2;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 90%;
+    width: 100%
 }
 
 @media screen and (max-width: 768px){
