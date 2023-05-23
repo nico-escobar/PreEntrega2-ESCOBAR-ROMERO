@@ -307,6 +307,7 @@ ul.fot-logo {
     width: 100%
 }
 
+
 @media screen and (max-width: 768px){
     .pagosypromociones{
         flex-direction: column;
@@ -318,5 +319,14 @@ ul.fot-logo {
         grid-template-columns: auto;
 
     }
+
+    .tipos p {
+        font-size: 150%;
+    }
 }
 
+@media screen and (max-width: 1024px){
+    .tipos p {
+        font-size: 150%;
+    } 
+}
