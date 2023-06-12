@@ -1,0 +1,129 @@
+header{
+    nav{
+        div{
+            .collapse navbar-collapse{
+                background-color: rgb(194, 147, 100);
+            }
+        }
+    }
+}
+
+.intro {
+    background-color: rgb(194, 147, 100);
+}
+
+.main{
+    min-height: 5vh;
+    
+}
+
+.cont-img{
+    background-image: url(../img/jujuy.jpg);
+    min-height: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.titulo {
+    text-align: center;  
+    justify-content: center;
+    height: 100%;
+}
+
+.logo-titulo{
+    height: 22vw;
+}
+
+.nosotros{
+    margin-top: 50px;
+    width: auto;
+}
+
+.palpala{
+    padding: 10px;
+    background-color: rgb(236 231 225);
+}
+
+.text{
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto{
+    font-size: 25px;
+
+}
+
+h1{ 
+    color: black;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+.sobre{
+    font-size: 35px;
+}
+
+.sobre-nosotros{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.pal{   
+    padding: 0px;
+    height: auto;
+    width: 50%;
+    margin: 0 ;  
+    
+}
+
+.sobre-nosotros p{
+    margin-top: 100px;
+}
+
+
+
+h2{
+    color: rgb(80, 54, 54);
+    margin-top: 10px;
+    font-size: 30px;
+    background-position: center;
+}
+
+.subtitulo{
+    color: black;
+    margin-top: 8px;
+    font-size: 25px;
+    background-position: center;
+}
+
+@media screen and (max-width: 1024px){
+    .cont-img{
+        min-height: 35vw;
+    }
+    .logo-titulo{
+        height: 30vw;
+    }
+    
+}
+
+@media screen and (max-width: 667px){
+    .cont-img{
+        min-height: 45vw;
+    }
+    .logo-titulo{
+        height: 40vw;
+    }
+    .pal{
+        width: 80%;
+    }
+}
