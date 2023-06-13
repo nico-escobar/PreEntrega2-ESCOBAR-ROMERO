@@ -101,6 +101,15 @@ h2 {
   .logo-titulo {
     height: 30vw;
   }
+  .texto {
+    font-size: 25px;
+  }
+  div p {
+    margin: 20px;
+  }
+  .text {
+    margin: 25px;
+  }
 }
 @media screen and (max-width: 667px) {
   .cont-img {
@@ -111,6 +120,15 @@ h2 {
   }
   .pal {
     width: 80%;
+  }
+  .texto {
+    font-size: 20px;
+  }
+  div p {
+    margin: 10px;
+  }
+  .text {
+    margin: 10px;
   }
 }
 .accesorios {
