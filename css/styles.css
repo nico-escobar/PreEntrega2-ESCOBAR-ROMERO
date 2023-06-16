@@ -58,10 +58,12 @@ h1 {
   text-align: center;
   font-size: 45px;
   margin-top: 10px;
+  font-weight: 550;
 }
 
 .sobre {
-  font-size: 35px;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .sobre-nosotros {
@@ -79,13 +81,6 @@ h1 {
 
 .sobre-nosotros p {
   margin-top: 100px;
-}
-
-h2 {
-  color: rgb(80, 54, 54);
-  margin-top: 10px;
-  font-size: 30px;
-  background-position: center;
 }
 
 .subtitulo {
@@ -198,6 +193,10 @@ h2 {
   height: 50%;
   width: 25%;
   min-width: 190px;
+}
+
+.acces-indu {
+  padding: 1rem;
 }
 
 #contactoButton {
@@ -315,7 +314,16 @@ h2 {
 }
 
 div p {
-  margin: 20px;
+  margin: 15px;
+  font-size: 20px;
+}
+
+h2 {
+  color: rgb(80, 54, 54);
+  margin-top: 10px;
+  font-size: 30px;
+  background-position: center;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 768px) {
