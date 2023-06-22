@@ -72,6 +72,13 @@ h1 {
   justify-content: center;
 }
 
+.sobrepal {
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+
 .pal {
   padding: 0px;
   height: auto;
