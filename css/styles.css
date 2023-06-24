@@ -1,0 +1,413 @@
+header nav div .collapse navbar-collapse {
+  background-color: rgb(194, 147, 100);
+}
+
+.intro {
+  background-color: rgb(194, 147, 100);
+  font-size: 18px;
+}
+
+.main {
+  min-height: 5vh;
+}
+
+.cont-img {
+  background-image: url(../img/jujuy.jpg);
+  min-height: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.titulo {
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.logo-titulo {
+  height: 22vw;
+}
+
+.nosotros {
+  margin-top: 50px;
+  width: auto;
+}
+
+.palpala {
+  padding: 10px;
+  background-color: rgb(236, 231, 225);
+}
+
+.text {
+  margin: 60px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.texto {
+  font-size: 25px;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 45px;
+  margin-top: 10px;
+  font-weight: 550;
+}
+
+.sobre {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.sobre-nosotros {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.sobrepal {
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+
+.pal {
+  padding: 0px;
+  height: auto;
+  width: 50%;
+  margin: 0;
+}
+
+.sobre-nosotros p {
+  margin-top: 100px;
+}
+
+.subtitulo {
+  color: black;
+  margin-top: 8px;
+  font-size: 25px;
+  background-position: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .cont-img {
+    min-height: 35vw;
+  }
+  .logo-titulo {
+    height: 30vw;
+  }
+  .texto {
+    font-size: 25px;
+  }
+  div p {
+    margin: 20px;
+  }
+  .text {
+    margin: 25px;
+  }
+}
+@media screen and (max-width: 667px) {
+  .cont-img {
+    min-height: 45vw;
+  }
+  .logo-titulo {
+    height: 40vw;
+  }
+  .pal {
+    width: 80%;
+  }
+  .texto {
+    font-size: 20px;
+  }
+  div p {
+    margin: 10px;
+  }
+  .text {
+    margin: 10px;
+  }
+}
+.accesorios {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70%;
+}
+
+.indumentaria {
+  border: 3px solid black;
+  margin: 20px;
+  padding: 10px;
+}
+
+.accind {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: 90%;
+  width: 100%;
+}
+
+.acc-ind {
+  margin-top: 10px;
+}
+
+.access {
+  border: 3px solid black;
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.pagosypromociones {
+  height: 50%;
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.medios-de-pago {
+  margin-top: 2px;
+  border: 4px solid;
+  border-radius: 10px;
+  text-align: center;
+  margin-inline: 50px;
+  height: 50%;
+  width: 22%;
+  min-width: 164px;
+}
+
+.promociones {
+  margin-top: 2px;
+  border: 4px solid;
+  border-radius: 10px;
+  margin-inline: 50px;
+  height: 50%;
+  width: 25%;
+  min-width: 190px;
+}
+
+.acces-indu {
+  padding: 1rem;
+}
+
+#contactoButton {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  background-color: rgb(222, 156, 89);
+  border-radius: 5px;
+  max-width: 200px;
+}
+
+.rounded-3 {
+  background-image: url(../img/hornocal.jpg);
+}
+
+.text-uppercase {
+  text-align: center;
+}
+
+.gente {
+  display: grid;
+  grid-template-columns: 80%;
+  grid-template-rows: 0.1fr 1fr;
+  justify-content: center;
+  margin: 10px;
+}
+
+.h2-gente {
+  font-size: 40px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.clientes {
+  width: 100%;
+  height: 680px;
+}
+
+@media screen and (max-width: 1024px) {
+  .clientes {
+    width: 100%;
+    height: 360px;
+  }
+  .h2-gente {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .clientes {
+    width: 100%;
+    height: 250px;
+  }
+  .h2-gente {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .clientes {
+    width: 100%;
+    height: 170px;
+  }
+  .h2-gente {
+    font-size: 25px;
+  }
+}
+.tipos {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  max-width: 1366px;
+  margin: auto;
+}
+
+.tipsom {
+  border: 3px solid black;
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.tipsom img {
+  max-width: 100%;
+  height: 90%;
+  width: 100%;
+}
+
+.tipos p {
+  text-align: center;
+  font-size: 30px;
+}
+
+.tom-medidas {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 40px;
+  background-color: rgb(236, 231, 225);
+}
+
+.medidas {
+  display: grid;
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+  justify-items: center;
+}
+
+.medidas img {
+  width: 100%;
+  max-width: 400px;
+}
+
+div p {
+  margin: 15px;
+  font-size: 20px;
+}
+
+h2 {
+  color: rgb(80, 54, 54);
+  margin-top: 10px;
+  font-size: 30px;
+  background-position: center;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .tipos {
+    grid-template-columns: auto;
+  }
+  .tipos p {
+    font-size: 150%;
+  }
+  .somb {
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .tipos p {
+    font-size: 150%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pagosypromociones {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .somb {
+    margin: 10px;
+  }
+}
+.footer {
+  background-color: rgb(194, 147, 100);
+  width: 100%;
+}
+
+.logo-footer {
+  text-align: right;
+  font-size: 60px;
+  padding-left: 2px;
+  padding-right: 10px;
+  width: 100px;
+  display: inline-block;
+}
+
+.logo {
+  width: 40%;
+  vertical-align: middle;
+}
+
+.fot-logo {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+}
+
+ul.fot-logo {
+  margin-bottom: 0;
+}
+
+header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: bisque;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=styles.css.map */

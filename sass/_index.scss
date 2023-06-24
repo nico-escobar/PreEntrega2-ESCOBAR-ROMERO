@@ -1,0 +1,148 @@
+header{
+    nav{
+        div{
+            .collapse navbar-collapse{
+                background-color: rgb(194, 147, 100);
+            }
+        }
+    }
+}
+
+.intro {
+    background-color: rgb(194, 147, 100); 
+    font-size: 18px;
+}
+
+.main{
+    min-height: 5vh;
+    
+}
+
+.cont-img{
+    background-image: url(../img/jujuy.jpg);
+    min-height: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.titulo {
+    text-align: center;  
+    justify-content: center;
+    height: 100%;
+}
+
+.logo-titulo{
+    height: 22vw;
+}
+
+.nosotros{
+    margin-top: 50px;
+    width: auto;
+}
+
+.palpala{
+    padding: 10px;
+    background-color: rgb(236 231 225);
+}
+
+.text{
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto{
+    font-size: 25px;
+
+}
+
+h1{ 
+    color: black;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 10px;
+    font-weight: 550;
+}
+
+.sobre{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.sobre-nosotros{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.sobrepal{
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+.pal{   
+    padding: 0px;
+    height: auto;
+    width: 50%;
+    margin: 0 ;  
+    
+}
+
+.sobre-nosotros p{
+    margin-top: 100px;
+}
+
+
+.subtitulo{
+    color: black;
+    margin-top: 8px;
+    font-size: 25px;
+    background-position: center;
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .cont-img{
+        min-height: 35vw;
+    }
+    .logo-titulo{
+        height: 30vw;
+    }
+    .texto {
+        font-size: 25px;
+    }
+    div p {
+        margin: 20px;
+    }
+    .text{
+        margin: 25px;
+    }
+}
+
+@media screen and (max-width: 667px){
+    .cont-img{
+        min-height: 45vw;
+    }
+    .logo-titulo{
+        height: 40vw;
+    }
+    .pal{
+        width: 80%;
+    }
+    .texto {
+        font-size: 20px;
+    }
+    div p {
+        margin: 10px;
+    }
+    .text{
+        margin: 10px;
+    }
+}

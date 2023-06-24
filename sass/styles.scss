@@ -1,0 +1,20 @@
+@use "index";
+@use "Accesorios-e-Indumentaria";
+@use "contacto";
+@use "Nuestros-Clientes";
+@use "Sombreros";
+@use "layout/footer";
+@use "layout/header";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: bisque;
+    background-position: center;
+    background-repeat: no-repeat;
+}
